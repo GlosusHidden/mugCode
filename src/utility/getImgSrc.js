@@ -1,0 +1,1 @@
+export const getImgSrc = (image) => image?.sizes?.find(size => size?.type === 'x')?.url || '';

@@ -1,0 +1,15 @@
+{
+  "short_name": "Mobile Up Gallery",
+  "name": "Mobile Up Gallery",
+  "icons": [
+    {
+      "src":"./icon.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./",
+  "background_color": "#fafafa",
+  "theme_color": "#fafafa",
+  "display": "standalone"
+}

@@ -1,0 +1,14 @@
+.miniImgListContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow: hidden;
+    position: absolute;
+    bottom: 72px;
+    width: 100%;
+}
+
+.miniImgList {
+    flex-wrap: nowrap!important;
+    transform: translateZ(0);
+}

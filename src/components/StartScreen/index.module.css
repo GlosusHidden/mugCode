@@ -1,0 +1,30 @@
+.screen {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+}
+
+.titleContainer {
+    position: absolute;
+    top: 150px;
+    width: 100%;
+}
+
+.loginButton {
+    text-transform: none!important;
+    height: 56px!important;;
+    font-size: 18px!important;;
+    border-radius: 8px!important;;
+}
+
+.loginButtonContainer {
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+}

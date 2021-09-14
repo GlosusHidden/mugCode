@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 16px 12px;
+    font-size: 18px;
+}
+
+.headerLeft {
+    width: 20%;
+    text-align: left;
+}
+.headerMiddle {
+    width: 60%;
+    text-align: center;
+}
+
+.headerRight {
+    width: 20%;
+    text-align: right;
+}
+

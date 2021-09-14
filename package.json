@@ -1,0 +1,40 @@
+{
+  "name": "mobile-up-gallery",
+  "version": "1.0.0",
+  "description": "Mobile Up Gallery",
+  "author": "pixoris",
+  "license": "MIP",
+  "private": true,
+  "scripts": {
+    "start": "webpack serve ./src --config ./webpack/webpack.dev.config.js --progress",
+    "build": "webpack --config ./webpack/webpack.prod.config.js --progress"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "moment": "^2.29.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.15.0",
+    "@babel/preset-env": "7.15.0",
+    "@babel/preset-react": "7.14.5",
+    "babel-loader": "8.2.2",
+    "buffer": "6.0.3",
+    "clean-webpack-plugin": "3.0.0",
+    "copy-webpack-plugin": "^9.0.1",
+    "css-loader": "6.2.0",
+    "html-webpack-plugin": "5.3.2",
+    "raw-loader": "4.0.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "stream-browserify": "3.0.0",
+    "style-loader": "3.2.1",
+    "terser-webpack-plugin": "^5.1.4",
+    "webpack": "^5.50.0",
+    "webpack-cli": "4.7.2",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "5.8.0",
+    "webpack-node-externals": "3.0.0"
+  }
+}
